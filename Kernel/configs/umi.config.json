@@ -83,11 +83,11 @@
       "use": true,
       "release": true,
       "custom": {
-        "repo": "https://github.com/easterNday/AnyKernel3/",
-        "branch": "thyme"
+        "repo": "https://github.com/toraidl/AnyKernel3/",
+        "branch": "kona"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": false
   }
 ]
