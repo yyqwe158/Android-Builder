@@ -2,8 +2,8 @@
     {
       "kernelSource": {
         "name": "Xiaomi10",
-        "repo": "https://github.com/Rohail33/Realking_kernel_sm8250.git",
-        "branch": "main",
+        "repo": "https://github.com/toraidl/kernel_xiaomi_umi.git",
+        "branch": "test",
         "device": "umi",
         "defconfig": "umi_defconfig"
       },
