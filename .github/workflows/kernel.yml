@@ -408,7 +408,7 @@ jobs:
 
       - name: "💾 Upload AnyKernel3 image => (${{ env.BUILD_DATE }})"
         env:
-          ANYKERNEL3_FILE: "AnyKernel3-${{ env.KERNEL_NAME }}-${{ env.BUILD_DATE }}"
+          ANYKERNEL3_FILE: "${{ env.KERNEL_NAME }}-${{ env.KERNEL_DEVICE }}-hyperos-${{ env.BUILD_DATE }}"
         uses: actions/upload-artifact@v3
         if: ${{ env.USE_ANYKERNEL3 == 'true' }}
         with:
@@ -417,7 +417,7 @@ jobs:
 
       - name: 🧧 Create GitHub Release => (${{ env.BUILD_DATE }})
         env:
-          ANYKERNEL3_FILE: "${{ env.WORKSPACE }}/AnyKernel3-${{ env.KERNEL_NAME }}-${{ env.BUILD_DATE }}"
+          ANYKERNEL3_FILE: "${{ env.WORKSPACE }}/${{ env.KERNEL_NAME }}-${{ env.KERNEL_DEVICE }}-hyperos-${{ env.BUILD_DATE }}"
         continue-on-error: true
         uses: softprops/action-gh-release@v1
         if: ${{ env.USE_ANYKERNEL3 == 'true' && env.CONFIRM_RELEASE == 'true' }}

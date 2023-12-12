@@ -1,9 +1,9 @@
   [
     {
       "kernelSource": {
-        "name": "apeiria",
-        "repo": "https://github.com/toraidl/kernel_xiaomi_umi.git",
-        "branch": "test",
+        "name": "InfiniR",
+        "repo": "https://github.com/toraidl/InfiniR_kernel_umi.git",
+        "branch": "14.0-umi",
         "device": "umi",
         "defconfig": "umi_defconfig"
       },
