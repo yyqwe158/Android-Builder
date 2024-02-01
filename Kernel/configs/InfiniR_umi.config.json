@@ -34,7 +34,7 @@
           "branch": "kona"
         }
       },
-      "enableKernelSU": false,
+      "enableKernelSU": true,
       "enableLXC": false
     }
 ]
