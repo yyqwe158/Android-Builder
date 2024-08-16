@@ -5,7 +5,7 @@
         "repo": "https://github.com/toraidl/InfiniR_kernel_umi.git",
         "branch": "pipa-t-oss",
         "device": "umi",
-        "defconfig": "umi_defconfig"
+        "defconfig": "vendor/umi_user_defconfig"
       },
       "toolchains": [
    {
