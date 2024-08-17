@@ -3,7 +3,7 @@
       "kernelSource": {
         "name": "InfiniR",
         "repo": "https://github.com/toraidl/InfiniR_kernel_umi.git",
-        "branch": "14.0-umi",
+        "branch": "993fc8d",
         "device": "umi",
         "defconfig": "umi_defconfig"
       },
